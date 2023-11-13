@@ -21,7 +21,11 @@ import { MyMotion3 } from "./components/20230922/MyMotion3";
 import { GameShop } from "./components/GameShopFrontEnd/GameShop";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { LayoutApp } from "./components/Layout/LayoutApp";
-import { BoardGame } from "./components/20231108/BoardGame";
+import { Board } from "./components/Dwproject/Board";
+import { Header } from "./components/Dwproject/Header";
+import { Main } from "./components/Dwproject/MainT";
+import { OpenBox } from "./components/Dwproject/OpenBox";
+import { NaviText } from "./components/Dwproject/NaviText";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -46,8 +50,7 @@ export default function App() {
       <GlobalStyle />
       <QueryClientProvider client={client}>
         {/* <GameShop /> */}
-        {/* <LayoutApp /> */}
-        <BoardGame />
+        <Board />
       </QueryClientProvider>
     </>
   );
