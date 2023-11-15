@@ -58,6 +58,7 @@ export function NaviText() {
         <P>새로고침</P>
         <Box1>로그인</Box1>
         <Box2>회원가입</Box2>
+
         <Input>
           <input type="text" name="q" placeholder="검색어를 작성하세요" />
           <Button type="submit">검색</Button>
