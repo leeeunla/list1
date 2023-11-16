@@ -3,7 +3,7 @@ import { Board } from "./Board";
 
 const Box = styled.div`
   background-color: black;
-  height: 22.5px;
+  height: 24px;
   width: 48px;
   position: absolute;
   top: 0;

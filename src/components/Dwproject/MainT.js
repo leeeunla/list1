@@ -23,14 +23,14 @@ const Box1 = styled.div`
   display: flex;
   margin: 10px;
   padding: 20px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 `;
-
 const ImageContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 50px;
 `;
+
 export function MainT() {
   return (
     <>
@@ -44,15 +44,10 @@ export function MainT() {
           </div>
           <ImageContainer>
             <img
-              style={{ width: "700px", height: "auto" }}
+              style={{ width: "100px", height: "auto" }}
               src="https://health.chosun.com/site/data/img_dir/2014/09/22/2014092203793_0.jpg"
               alt="이미지"
             />
-            {/* <img
-              style={{ width: "300px", height: "auto" }}
-              src="https://img.hani.co.kr/imgdb/original/2007/1227/68227042_20071227.jpg"
-              alt="이미지"
-            /> */}
           </ImageContainer>
         </Box1>
         <Box1>
@@ -60,30 +55,26 @@ export function MainT() {
             <MainTest>커뮤니티</MainTest>
             <SideTest>자유게시판</SideTest>
             <SideTest>질문과답변</SideTest>
-            <SideTest>자랑게시판</SideTest>
+            <SideTest>가입인사</SideTest>
           </div>
           <ImageContainer>
             <img
-              style={{ width: "700px", height: "auto" }}
-              src="https://i.namu.wiki/i/w11dbZZeomJI4bD3_KItw3vq7tgglcM1YQA_xHULxMsixPpY1S7KcB8WrEFhJNuSuejiiQkicGKMH12JvpUqBQ.webp"
+              style={{ width: "100px", height: "auto" }}
+              src="https://i.namu.wiki/i/k9NaF5UjbVPXBSMv5OUXqvK6Zlk4QurrdvtUBOfvqv14rqqB0bIXdbBpLg_SgrrFcyCBry4hk_lp6X28V3wAEQ.webp"
               alt="이미지"
             />
           </ImageContainer>
         </Box1>
         <Box1>
           <div>
-            <MainTest>종료된게시판</MainTest>
-            <SideTest>신고게시판</SideTest>
-            <SideTest>
-              이벤트종료
-              <br />
-              게시판
-            </SideTest>
-            <SideTest>보류게시판</SideTest>
+            <MainTest>그림게시판</MainTest>
+            <SideTest>팬아트</SideTest>
+            <SideTest>손그림</SideTest>
+            <SideTest>커미션</SideTest>
           </div>
           <ImageContainer>
             <img
-              style={{ width: "700px", height: "auto" }}
+              style={{ width: "100px", height: "auto" }}
               src="https://images.unsplash.com/photo-1595126739121-68ab4225f9cf?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
               alt="이미지"
             />

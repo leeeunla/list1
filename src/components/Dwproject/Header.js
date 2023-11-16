@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Board } from "./Board";
+import { Icon } from "@iconify/react";
 
 const H3 = styled.div`
   border: 2px dotted black;
@@ -23,7 +24,10 @@ export function Header() {
   return (
     <>
       <Div>
-        <H3>🍁Dw Story 커 뮤 니 티 🍁</H3>
+        <H3>
+          <Icon icon="emojione:flag-for-south-korea" />
+          Dw Story 커 뮤 니 티 <Icon icon="twemoji:flag-south-korea" />
+        </H3>
       </Div>
     </>
   );

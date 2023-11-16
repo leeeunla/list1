@@ -3,7 +3,7 @@ import { MainT } from "./MainT";
 import styled from "styled-components";
 import { NaviText } from "./NaviText";
 import { OpenBox } from "./OpenBox";
-import { MainU } from "./MainU";
+import { Footer } from "./Footer";
 export function Board() {
   return (
     <>
@@ -11,8 +11,7 @@ export function Board() {
       <Header />
       <OpenBox />
       <MainT />
-      {/* <Swiper /> */}
-      <MainU />
+      <Footer />
     </>
   );
 }
